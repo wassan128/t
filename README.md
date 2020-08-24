@@ -3,12 +3,12 @@
 ツイートするためだけの自分用コマンド。
 
 ## howto
-1. .envファイルを用意
+1. 環境変数に以下を登録
 ```
-export CONSUMER_KEY=""
-export CONSUMER_SECRET=""
-export ACCESS_TOKEN=""
-export ACCESS_SECRET=""
+export T_CONSUMER_KEY=""
+export T_CONSUMER_SECRET=""
+export T_ACCESS_TOKEN=""
+export T_ACCESS_SECRET=""
 ```
 2. `go build -o t main.go`
 3. `t --text "hoge"`
